@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Name</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #444;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+    }
+    nav a:hover {
+      background-color: #555;
+    }
+    .main-image {
+      width: 500px;
+      height: 250px;
+      <img src="https://hi-cdn.t-rp.co.uk/images/hotels/321414/8?width=870&height=480&crop=false">
+      background-size: cover;
+      background-position: center;
+    }
+    .content {
+      padding: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LAURA'D'HIDE</h1>
+    <p>Welcome to our restaurant</p>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+  <div class="main-image"></div>
+  <div class="content">
+    <h2>About Us</h2>
+    <p>We are a cozy and elegant restaurant located in the heart of Bangalore. Our ambiance is designed to offer a perfect blend of sophistication and comfort, making it an ideal destination for intimate dinners, family gatherings, and special celebrations.</p>
+    <h2>Our Menu</h2>
+    <h3>Appetizers</h3>
+    <ul>
+      <li>
+        <strong>Caprese Salad</strong><br>
+        Fresh mozzarella, ripe tomatoes, and basil drizzled with balsamic glaze.
+      </li>
+      <li>
+        <strong>Shrimp Cocktail</strong><br>
+        Chilled jumbo shrimp served with tangy cocktail sauce.
+      </li>
+    </ul>
+    <h3>Main Courses</h3>
+    <ul>
+      <li>
+        <strong>Filet Mignon</strong><br>
+        Grilled to perfection and served with roasted potatoes and seasonal vegetables.
+      </li>
+      <li>
+        <strong>Seafood Linguine</strong><br>
+        Linguine pasta tossed with shrimp, scallops, and mussels in a creamy garlic sauce.
+      </li>
+    </ul>
+    <h3>Desserts</h3>
+    <ul>
+      <li>
+        <strong>Chocolate Lava Cake</strong><br>
+        Warm chocolate cake with a gooey molten center, served with vanilla ice cream.
+      </li>
+      <li>
+        <strong>Crème Brûlée</strong><br>
+        Creamy vanilla custard topped with a caramelized sugar crust.
+      </li>
+    </ul>
+    <h2>Book a Table</h2>
+    <form action="book_table.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required><br><br>
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" required><br><br>
+      <input type="submit" value="Book Now">
+    </form>
+  </div>
+  <footer>
+    <p>&copy; 2024 Restaurant Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
